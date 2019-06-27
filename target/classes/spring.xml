@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- spring.xml -->
+	<!-- 스프링 빈 생성 -->
+	
+	<!-- id="객체명" class="패키지명.클래스명" -->
+	
+	<!-- 1) -->
+	<!-- 
+	<bean id="msgKo" class="kr.co.basicspring.di1.MessageKo"></bean>
+	<bean id="msgEm" class="kr.co.basicspring.di1.MessageEn"></bean>
+	 -->
+	<!-- 2) -->
+	<bean id="msgKo" class="kr.co.basicspring.di2.MessageKo2"></bean>
+	<bean id="msgEm" class="kr.co.basicspring.di2.MessageEn2"></bean>
+</beans>

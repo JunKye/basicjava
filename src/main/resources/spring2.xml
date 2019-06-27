@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- spring.xml -->
+	<!-- 스프링 빈 등록 -->
+	<!-- 
+	<bean id="msgKo" class="kr.co.basicspring.di3.MessegeKo3"></bean>
+	<bean id="msgEm" class="kr.co.basicspring.di3.MessegeEn3"></bean>
+	 -->
+	 
+	<bean id="msgKo" class="kr.co.basicspring.di4.MessegeKo4"></bean>
+	<bean id="msgEm" class="kr.co.basicspring.di4.MessegeEn4"></bean>
+</beans>
